@@ -1,0 +1,6 @@
+{
+  "name": "AI Smart Fitness Web Platform",
+  "description": "Biometrik ko'rsatkichlar asosida shaxsiy trenirovka rejalari, avtomatik aylanuvchi vizual ko'rgazmali animatsiyalar (Visual Motion Engine) va Gemini AI murabbiyi bilan zamonaviy fitnes platformasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, .font-athletic {
+    letter-spacing: -0.02em;
+  }
+
+  .font-display {
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 0.05em;
+  }
+}
+
+/* Custom modern sporty scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Pulse glow animations */
+@keyframes neonPulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(204, 255, 0, 0.25), inset 0 0 15px rgba(204, 255, 0, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(204, 255, 0, 0.45), inset 0 0 20px rgba(204, 255, 0, 0.2);
+  }
+}
+
+.neon-glow {
+  animation: neonPulse 3s infinite ease-in-out;
+}
+
